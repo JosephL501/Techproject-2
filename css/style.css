@@ -54,7 +54,6 @@ hr {
 
 .main-nav li {
 	list-style-type: none;
-	width: 100%;
 	background-color: white;
 	margin: 10px;
 	font-weight: bold;
@@ -149,13 +148,9 @@ hr {
 	  Header Media Layout Styles
 	==================================== */
 
-.name,
-.main-nav {
-	display: inline;
-}
-
 .main-nav li {
-	display: inline;
+	display: inline-block;
+	background-color: #dcdcdc;
 }
 
 .profile-img {
@@ -163,6 +158,10 @@ hr {
 	width: 40%;
 	margin: 0 10px 5em 10px;
 }
+
+/* =================================
+	Main Media Layout Styles
+==================================== */
 
 .card {
 	float: left;
@@ -218,7 +217,7 @@ hr {
 .main-nav {
 	float: right;
 	display: inline-block;
-margin-right: 40px;
+	margin-right: 40px;
 }
 
 .banner {
