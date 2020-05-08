@@ -1,84 +1,238 @@
 /* =================================
   Base Styles
 ==================================== */
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
-	line-height: 1.6;
-	color: #3a3a3a;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body,
+header,
+footer {
+    width: 100%;
+    background-color: #dcdcdc;
 }
 
 p {
-	font-size: .95em;
-	margin-bottom: 1.5em;
+	font-size: 22px;
 }
 
-h2,
-h3,
-a {
-	color: #093a58;
-}
-
-h2,
 h3 {
-	margin-top: 0;
+	margin-bottom: 50px;
 }
 
-a {
-	text-decoration: none;
+footer {
+    padding-top: 4em;
+    overflow: auto;
+}
+
+hr {
+    clear: both;
+    background: gray;
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 1em;
 }
 
 /* =================================
-  Base Layout Styles
+  Header Layout Styles
 ==================================== */
 
-
-/* ---- Navigation ---- */
-
-
-
-/* ---- Layout Containers ---- */
-
-.container {
-	padding-left: 1em;
-	padding-right: 1em;
+.main-nav ul {
+	width: 90%;
+	margin: auto;
 }
 
-.main-header {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	background: #3acec2;
-	margin-bottom: 30px;
+.main-nav li {
+	list-style-type: none;
+	width: 100%;
+	background-color: white;
+	margin: 10px;
+	font-weight: bold;
 }
 
+.name a,
+.main-nav a {
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+	color: black;
+	text-decoration-line: none;
+}
+
+.main-nav a:hover {
+		color: #a9a9a9;
+	}
+
+.profile-img {
+	width: 70%;
+}
+
+.feat-img {
+	width: 100%;
+}
+
+.banner {
+	padding: 20px;
+}
+
+.banner,
 .main-footer {
 	text-align: center;
-	padding: 2em 0;
-	background: #d9e4ea;
+}
+
+.profile-img {
+	margin: 20px 0 10px 0;
+}
+
+/* =================================
+  Footer Layout Styles
+==================================== */
+
+.main-footer {
+	padding: 20px;
+}
+
+.info {
+    margin-bottom: 1em;
+}
+
+.footer-name {
+	float: left;
+	font-size: 20px;
+}
+
+.footer-nav {
+	display: none;
+	text-decoration-line: none;
+}
+
+.bbt {
+	float: right;
+	font-size: 20px;
+	text-decoration-line: none;
+}
+
+.info {
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.gap {
+    margin-left: 10px;
+}
+
+/* =================================
+  Layout Containers
+==================================== */
+
+.container {
+	padding: 40px 20px;
+	background-color: #f8f8ff;
 }
 
 /* =================================
   Media Queries
 ==================================== */
+@media screen and (min-width: 768px) {
 
-@media (min-width: 320px) {
+	/* =================================
+	  Header Media Layout Styles
+	==================================== */
 
-  .wrap {
-		min-height: calc(100vh - 89px);
-	}
+.name,
+.main-nav {
+	display: inline;
+}
 
-	.container {
-		width: 85%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
+.main-nav li {
+	display: inline;
+}
 
-	.feat-img {
-		width: 300px;
-  }
+.profile-img {
+	float: right;
+	width: 40%;
+	margin: 0 10px 5em 10px;
+}
 
+.card {
+	float: left;
+	width: 45%;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+/* =================================
+  Footer Media Layout Styles
+==================================== */
+
+#btt {
+	display: none;
+}
+
+.footer-nav {
+	display: block;
+	float: right;
+}
+
+.footer-nav li {
+	font-size: 1em;
+	display: inline;
+	padding: 10px 0 10px 20px;
+  margin-bottom: 4em;
+	color: black;
+	text-decoration-line: none;
+}
+
+ 	/* ---- Float clearfix ---- */
+
+ 	.clearfix::after {
+ 		content: " ";
+ 		display: table;
+ 		clear: both;
+ 	}
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	/* =================================
+	  Header media Layout Styles
+	==================================== */
+
+.name {
+	float: left;
+	margin-left: 40px;
+}
+
+.main-nav {
+	float: right;
+	display: inline-block;
+margin-right: 40px;
+}
+
+.banner {
+	padding: 30px;
+	clear: both;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.card {
+	width: 30%;
+}
 
 }
