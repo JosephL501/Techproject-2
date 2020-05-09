@@ -58,7 +58,7 @@ hr {
 	margin: 10px;
 	font-weight: bold;
 	border-style: solid;
-	border-color: #daa520;
+	border-color: #7fffd4;
 }
 
 .name a,
@@ -95,6 +95,9 @@ hr {
 	margin: 20px 0 10px 0;
 }
 
+.color {
+	color: #7fffd4;
+}
 /* =================================
   Footer Layout Styles
 ==================================== */
@@ -142,10 +145,6 @@ hr {
 	color: black;
 	}
 
-.contact {
-	color: #f08080;
-}
-
 .info {
 	list-style-type: none;
 	font-size: 20px;
@@ -160,10 +159,14 @@ hr {
 ==================================== */
 
 .pro-container {
-	padding: 40px 20px;
+	padding: 20px 20px;
 	background-color: #ffa07a;
 }
 
+.nxt-container {
+	padding: 40px 20px;
+	background-color: #ffa07a;
+}
 /* =================================
   Media Queries
 ==================================== */
@@ -180,7 +183,7 @@ hr {
 	}
 
 	.main-nav a {
-		color: #daa520;
+		color: #8fbc8f;
 	}
 
 .profile-img {
@@ -266,6 +269,11 @@ hr {
 	width: 95%;
 	margin: 0 auto;
 	}
+
+.nxt-container {
+		margin: 0 auto;
+		width: 95%;
+}
 
 .card {
 	width: calc(100% / 3 - 20px);
