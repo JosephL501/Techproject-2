@@ -159,7 +159,7 @@ hr {
   Layout Containers
 ==================================== */
 
-.container {
+.pro-container {
 	padding: 40px 20px;
 	background-color: #ffa07a;
 }
@@ -262,7 +262,7 @@ hr {
 		Main Media Layout Styles
 	==================================== */
 
-.container {
+.pro-container {
 	width: 95%;
 	margin: 0 auto;
 	}
