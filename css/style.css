@@ -202,6 +202,7 @@ hr {
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 20px;
+	height: 0 auto;
 }
 
 /* =================================
@@ -279,6 +280,7 @@ hr {
 	width: calc(100% / 3 - 20px);
 	Margin-left: 10px;
 	margin-right: 10px;
+	height: 500px;
 	}
 
 }
