@@ -182,15 +182,17 @@ hr {
 	border-style: none;
 	}
 
-	.main-nav a {
-		color: #8fbc8f;
-	}
+.main-nav a {
+	color: #8fbc8f;
+}
 
 .profile-img {
 	float: right;
 	width: 40%;
 	margin: 0 10px 5em 10px;
-	}
+}
+
+
 
 /* =================================
 	Main Media Layout Styles
@@ -223,15 +225,15 @@ hr {
 	display: inline;
 	padding: 10px 0 10px 20px;
   margin-bottom: 4em;
-	}
+}
 
  	/* ---- Float clearfix ---- */
 
- 	.clearfix::after {
- 		content: " ";
- 		display: table;
- 		clear: both;
- 	}
+.clearfix::after {
+ 	content: " ";
+ 	display: table;
+ 	clear: both;
+ }
 
 
 }
@@ -257,10 +259,22 @@ hr {
 	width: 100%;
 }
 
+.profile-img {
+	width: 30%;
+}
+
+.banner-p {
+	width: 65%;
+	font-size: 30px;
+	padding: 20px;
+}
+
 .banner {
 	padding: 30px;
+	text-align: left;
 	clear: both;
 	}
+
 
 	/* =================================
 		Main Media Layout Styles
@@ -278,9 +292,9 @@ hr {
 
 .card {
 	width: calc(100% / 3 - 20px);
-	Margin-left: 10px;
-	margin-right: 10px;
-	height: 500px;
+	margin: 10px;
+	height: 400px;
 	}
+
 
 }
