@@ -98,6 +98,7 @@ hr {
 .color {
 	color: #7fffd4;
 }
+
 /* =================================
   Footer Layout Styles
 ==================================== */
@@ -294,7 +295,7 @@ hr {
 	width: calc(100% / 3 - 20px);
 	margin: 10px;
 	height: 400px;
+	max-width: 470px;
 	}
-
 
 }
